@@ -49,6 +49,11 @@
     },
     "lien_rdv": {
       "type": "string"
+    },
+    "Offre": {
+      "type": "component",
+      "repeatable": true,
+      "component": "offre.offre"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_prixes",
+  "info": {
+    "displayName": "Prix"
+  },
+  "options": {},
+  "attributes": {
+    "Libelle": {
+      "type": "string"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

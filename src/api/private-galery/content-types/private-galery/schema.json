@@ -4,7 +4,8 @@
   "info": {
     "singularName": "private-galery",
     "pluralName": "private-galeries",
-    "displayName": "Private_galery"
+    "displayName": "Private_galery",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,16 +15,21 @@
     "Nom": {
       "type": "string"
     },
-    "mot_de_passe": {
-      "type": "password"
-    },
     "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Aimees": {
+      "type": "json"
+    },
+    "Mot_de_passe": {
+      "type": "string",
+      "required": false
     }
   }
 }

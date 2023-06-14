@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "patchworks",
+  "info": {
+    "singularName": "patchwork",
+    "pluralName": "patchworks",
+    "displayName": "Patchwork"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Photos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

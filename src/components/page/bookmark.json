@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_bookmarks",
+  "info": {
+    "displayName": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "Accroche": {
+      "type": "string"
+    },
+    "Nom": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Couleur": {
+      "type": "string",
+      "default": "#eedbdf",
+      "required": true,
+      "unique": false
+    },
+    "Lien": {
+      "type": "string",
+      "default": "/tarifs",
+      "required": true
+    }
+  }
+}

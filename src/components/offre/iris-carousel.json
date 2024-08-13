@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_offre_iris_carousels",
+  "info": {
+    "displayName": "irisCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "premier": {
+      "displayName": "irisCarouselItem",
+      "type": "component",
+      "repeatable": false,
+      "component": "offre.iris-carousel-item"
+    },
+    "deuxieme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "offre.iris-carousel-item"
+    },
+    "troisieme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "offre.iris-carousel-item"
+    },
+    "quatrieme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "offre.iris-carousel-item"
+    }
+  }
+}

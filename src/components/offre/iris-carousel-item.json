@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_offre_iris_carousel_items",
+  "info": {
+    "displayName": "irisCarouselItem"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
